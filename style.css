@@ -612,25 +612,27 @@ nav a.active::after {
 
 /* Future University Card */
 .future-card {
-    width: 100%;
-    max-width: 1100px;
-    margin: 45px auto 0;
-    padding: 35px;
-    background: rgba(255, 255, 255, 0.9);
+    width: 95%;
+    max-width: 1250px;
+    margin: 60px auto 0;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.95);
     border: 2px solid #f3d6e4;
-    border-radius: 28px;
-    box-shadow: 0 12px 30px rgba(180, 130, 160, 0.12);
+    border-radius: 35px;
+    box-shadow: 0 15px 40px rgba(180, 130, 160, 0.15);
 }
 
 .future-box {
     display: flex;
     align-items: flex-start;
-    gap: 20px;
-    padding: 25px;
-    margin-bottom: 20px;
+    gap: 25px;
+    padding: 40px;
+    margin-bottom: 30px;
     background: #fff8fb;
-    border-radius: 20px;
-    border: 1px solid #f6dce8;
+    border-radius: 28px;
+    border: 2px solid #f6dce8;
+    min-height: 180px;
+    box-sizing: border-box;
 }
 
 .future-box:last-child {
@@ -638,56 +640,62 @@ nav a.active::after {
 }
 
 .future-icon {
-    width: 55px;
-    height: 55px;
-    min-width: 55px;
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #ffe5f0;
     border-radius: 50%;
-    font-size: 26px;
+    font-size: 32px;
 }
 
 .future-box span {
     display: block;
     color: #c88ca8;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 
 .future-box h2 {
     margin: 0;
     color: #5f4b57;
-    font-size: 23px;
+    font-size: 30px;
+    line-height: 1.5;
 }
 
 .future-box p {
     margin: 0;
     color: #75646d;
     line-height: 1.8;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* Mobile */
 @media (max-width: 768px) {
     .future-card {
-        padding: 20px;
-        margin-top: 30px;
+        width: 94%;
+        padding: 25px;
+        margin-top: 40px;
     }
 
     .future-box {
-        padding: 30px;
-        gap: 15px;
+        padding: 28px;
+        gap: 18px;
+        min-height: 160px;
     }
 
+    . future-box span {
+        font-size: 16px;
+
     .future-box h2 {
-        font-size: 19px;
+        font-size: 23px;
     }
 
     .future-box p {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     
