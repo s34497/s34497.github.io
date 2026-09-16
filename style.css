@@ -814,5 +814,131 @@ nav a.active::after {
     .future-item p {
         font-size: 14px;
     }
+
+    /* ================================
+   FUTURE UNIVERSITY
+================================ */
+
+.future-card {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 40px;
+
+    background: #fff;
+    border: 2px solid #f3c8dc;
+    border-radius: 30px;
+
+    box-shadow: 0 10px 30px rgba(200, 150, 180, 0.15);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    box-sizing: border-box;
+}
+
+
+/* กล่องย่อย 2 ช่อง */
+
+.future-item {
+    padding: 30px;
+
+    background: #fff8fb;
+    border: 1px solid #f3d8e4;
+    border-radius: 22px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    box-sizing: border-box;
+}
+
+
+/* ไอคอน */
+
+.future-icon {
+    width: 55px;
+    height: 55px;
+
+    min-width: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffe5f0;
+    border-radius: 50%;
+
+    font-size: 26px;
+}
+
+
+/* หัวข้อเล็ก */
+
+.future-item span {
+    display: block;
+
+    color: #d58aaa;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+
+/* หัวข้อใหญ่ */
+
+.future-item h2 {
+    margin: 0 0 10px;
+
+    color: #5d4b55;
+
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+
+/* เนื้อหา */
+
+.future-item p {
+    margin: 0;
+
+    color: #76656d;
+
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 768px) {
+
+    .future-card {
+        width: 92%;
+
+        grid-template-columns: 1fr;
+
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .future-item {
+        padding: 22px;
+    }
+
+    .future-item h2 {
+        font-size: 20px;
+    }
+
+    .future-item p {
+        font-size: 14px;
+    }
+}
 }
 }
