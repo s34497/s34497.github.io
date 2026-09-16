@@ -580,3 +580,32 @@ nav a.active::after {
         font-size: 55px;
     }
 }
+.activity-card {
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.activity-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.activity-content {
+    padding: 30px;
+}
+
+.activity-content span {
+    color: #e8a3b5;
+}
+
+.activity-content h2 {
+    margin: 10px 0;
+}
+
+.activity-content p {
+    line-height: 1.8;
+}
