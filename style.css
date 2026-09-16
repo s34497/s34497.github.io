@@ -609,94 +609,163 @@ nav a.active::after {
 .activity-content p {
     line-height: 1.8;
 }
+/* ================================
+   FUTURE UNIVERSITY
+================================ */
 
-/* Future University Card */
 .future-card {
-    width: 95%;
-    max-width: 1250px;
-    margin: 60px auto 0;
-    padding: 50px;
-    background: rgba(255, 255, 255, 0.95);
-    border: 2px solid #f3d6e4;
-    border-radius: 35px;
-    box-shadow: 0 15px 40px rgba(180, 130, 160, 0.15);
-}
+    width: 100%;
+    max-width: 1200px;
 
-.future-box {
-    display: flex;
-    align-items: flex-start;
-    gap: 25px;
-    padding: 40px;
-    margin-bottom: 30px;
-    background: #fff8fb;
-    border-radius: 28px;
-    border: 2px solid #f6dce8;
-    min-height: 180px;
+    margin: 70px auto 0;
+    padding: 45px;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    border: 3px solid #f3d6e4;
+    border-radius: 35px;
+
+    box-shadow: 0 15px 40px rgba(180, 130, 160, 0.15);
+
     box-sizing: border-box;
 }
+
+
+/* กล่องข้อมูล */
+
+.future-box {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+
+    gap: 30px;
+
+    padding: 40px;
+
+    margin-bottom: 30px;
+
+    background: #fff8fb;
+
+    border-radius: 28px;
+
+    border: 2px solid #f6dce8;
+
+    min-height: 220px;
+
+    box-sizing: border-box;
+}
+
+
+/* กล่องสุดท้าย */
 
 .future-box:last-child {
     margin-bottom: 0;
 }
 
+
+/* ไอคอน */
+
 .future-icon {
-    width: 70px;
-    height: 70px;
-    min-width: 70px;
+    width: 75px;
+    height: 75px;
+
+    min-width: 75px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     background: #ffe5f0;
+
     border-radius: 50%;
-    font-size: 32px;
+
+    font-size: 35px;
 }
+
+
+/* หัวข้อเล็ก */
 
 .future-box span {
     display: block;
+
     color: #c88ca8;
-    font-size: 18px;
+
+    font-size: 20px;
+
     font-weight: bold;
-    margin-bottom: 12px;
+
+    margin-bottom: 15px;
 }
+
+
+/* หัวข้อใหญ่ */
 
 .future-box h2 {
     margin: 0;
+
     color: #5f4b57;
-    font-size: 30px;
+
+    font-size: 32px;
+
     line-height: 1.5;
 }
 
+
+/* เนื้อหา */
+
 .future-box p {
     margin: 0;
+
     color: #75646d;
-    line-height: 1.8;
+
     font-size: 20px;
+
+    line-height: 2;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 800px) {
+
     .future-card {
-        width: 94%;
-        padding: 25px;
+        width: 100%;
+
         margin-top: 40px;
+
+        padding: 25px;
     }
 
     .future-box {
-        padding: 28px;
+        padding: 25px;
+
         gap: 18px;
-        min-height: 160px;
+
+        min-height: 180px;
     }
 
-    . future-box span {
+    .future-icon {
+        width: 55px;
+        height: 55px;
+
+        min-width: 55px;
+
+        font-size: 25px;
+    }
+
+    .future-box span {
         font-size: 16px;
+    }
 
     .future-box h2 {
         font-size: 23px;
     }
 
     .future-box p {
-        font-size: 17px;
+        font-size: 16px;
     }
+}
 
-    
-    
